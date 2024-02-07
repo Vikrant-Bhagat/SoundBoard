@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    background-color: #8a2be2;
+}
+button{
+    background-color: #800080	;
+    color: white;
+    margin: 20px;
+    padding: 40px 60px;
+    border-radius: 10%;
+    top: 50vh;
+    position: relative;
+    transform: translateY(-50%);
+    font-family: Georgia, serif;
+    font-size: 2rem; 
+    cursor: pointer;
+}
+button::hover{
+    opacity: 0.9;
+}
